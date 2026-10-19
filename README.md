@@ -20,7 +20,7 @@ Backbone weights are downloaded from Hugging Face unless `--model-path` points t
 
 ## Data format
 
-Obtain [AFTraj-2K](https://huggingface.co/datasets/ZBox008003/AFTraj) or [StepShield](https://github.com/glo26/stepshield) from their original releases. The scripts expect a normalized trajectory JSONL file and a training-prefix index JSONL file. For example:
+Download [AFTraj-2K](https://huggingface.co/datasets/ZBox008003/AFTraj) or [StepShield](https://huggingface.co/datasets/glo26/stepshield) from their original dataset pages ([StepShield format notes](https://github.com/glo26/stepshield)). The scripts expect a normalized trajectory JSONL file and a training-prefix index JSONL file. For example:
 
 ```json
 {"trajectory_id":"run-001","parent_group_id":"task-001","public_context":"Task instructions","outcome":1,"events":[{"actor_role":"assistant","actor_id":"agent-1","event_type":"message","action_text":"First action","observation_text":"","done":false},{"actor_role":"tool","actor_id":"tool-1","event_type":"tool_result","action_text":"","observation_text":"Result","done":true}]}
