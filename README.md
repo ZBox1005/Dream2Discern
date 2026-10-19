@@ -1,8 +1,20 @@
-# Dream2Discern
+<div align="center">
 
-**Learning from Hard Latent Variants for Runtime Failure Prediction in Multi-Agent Systems**
+<img src="assets/logo_full.png" width="620" alt="Dream2Discern logo">
 
-[Paper](https://arxiv.org/abs/2610.16071) · [Project page](https://zbox1005.github.io/dream2discern-project/)
+### Learning from Hard Latent Variants for Runtime Failure Prediction in Multi-Agent Systems
+
+[![arXiv](https://img.shields.io/badge/arXiv-2610.16071-b31b1b)](https://arxiv.org/abs/2610.16071)
+[![Project Page](https://img.shields.io/badge/Project-Page-269E95)](https://zbox1005.github.io/dream2discern-project/)
+[![AFTraj-2K](https://img.shields.io/badge/Dataset-AFTraj--2K-8864CF)](https://huggingface.co/datasets/ZBox008003/AFTraj)
+[![StepShield](https://img.shields.io/badge/Dataset-StepShield-8864CF)](https://huggingface.co/datasets/glo26/stepshield)
+[![License](https://img.shields.io/badge/License-MIT-269E95)](LICENSE)
+
+</div>
+
+---
+
+## Overview
 
 Dream2Discern trains an auditor to predict whether a multi-agent run will fail from its observed trajectory. During training, **Dream** searches for difficult latent variants and **Discern** learns from them. At runtime, the auditor scores the observed prefix without this search.
 
